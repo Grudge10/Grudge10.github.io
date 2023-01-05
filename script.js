@@ -18,9 +18,3 @@ function opentab(tabname) {
   event.currentTarget.classList.add("active-link");
   document.getElementById(tabname).classList.add("active-tab");
 }
-
-const menu_btn = document.querySelector('.hamburger');
-
-menu_btn.addEventListener('click', function () {
-  menu_btn.classList.toggle('is-active')
-})

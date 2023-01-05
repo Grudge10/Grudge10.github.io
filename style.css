@@ -439,8 +439,8 @@ span {
 ╚═════╝░░╚════╝░╚═╝░░╚═╝╚══════╝╚══════╝╚═╝░░╚══╝
 */
 @media only screen and (max-width: 600px) {
-
-  nav .nav-list li a, nav .nav-list li.btn {
+  nav .nav-list li a,
+  nav .nav-list li.btn {
     display: none;
   }
 }
