@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--  Needed Meta Tags  -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--  title of the portfolio website  -->
+    <title>Liam's Portfolio</title>
+    <!--  Importing Libraries  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <!--
+█▀▀ █▀█ █░█ █▀▀ █▀█   █▀█ ▄▀█ █▀▀ █▀▀ ░   █░█ █▀█ █▀▄▀█ █▀▀
+█▄▄ █▄█ ▀▄▀ ██▄ █▀▄   █▀▀ █▀█ █▄█ ██▄ █   █▀█ █▄█ █░▀░█ ██▄
+    -->
+    <section id="home" class="hero">
+      <div class="main-width">
+        <header>
+            <div class="logo" data-aos="zoom-in-down">
+              <lottie-player
+                src="https://assets7.lottiefiles.com/packages/lf20_uivqHDq1CD.json"
+                background="transparent"
+                speed="1"
+                loop
+                autoplay
+              ></lottie-player>
+              <h1>
+                <pre><span>Jan</span> Liam.</pre>
+              </h1>
+            </div>
+            <nav data-aos="fade-down">
+              <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li class="btn"><a href="#">Contact me</a></li>
+              </ul>
+            </nav>
+        </header>
+        <div class="container">
+          <div class="hero-text">
+            <div class="hero-small-text" data-aos="fade-right">
+              <h3>Hello, There!</h3>
+            </div>
+            <h1 data-aos="fade-right">
+              I am <span class="typing-hero"></span>
+            </h1>
+            <p data-aos="fade-right">
+              Welcome to my portfolio website! I am excited to share with you
+              some of my projects and experiences as a self-taught Front-end web
+              developer. On this website, you will find information about me, my
+              skills, and some of the projects I have worked on. Thank you for
+              visiting and I hope you enjoy your stay.
+            </p>
+            <div class="social" data-aos="fade-up">
+              <a href="https://www.facebook.com/janliam.arias"
+                ><i class="fa-brands fa-facebook"></i
+              ></a>
+              <a href="https://github.com/Grudge10"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+              <a
+                href="https://twitter.com/JanliamArias/status/1541732639199346688"
+                ><i class="fa-brands fa-twitter"></i
+              ></a>
+              <a href="https://www.instagram.com/justjanliam/"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a href="./images/Screen Shot 2023-01-05 at 8.11.58 PM.png"
+                ><i class="fa-brands fa-discord"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--
+▄▀█ █▄▄ █▀█ █░█ ▀█▀   █▀▄▀█ █▀▀
+█▀█ █▄█ █▄█ █▄█ ░█░   █░▀░█ ██▄
+    -->
+    <div id="about">
+      <div class="second-container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="./images/277776945_1019179089035226_5616873807216955354_n.jpeg"
+              alt="An Image of me"
+              data-aos="zoom-in"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title" data-aos="fade-up">About Me</h1>
+            <p data-aos="fade-up">
+              Hi, my name is Jan Liam. I'm a grade 10 student who is currently
+              learning about coding. My main sources of learning have been The
+              Odin Project, Udemy, and YouTube. While I do learn coding, I
+              sometimes do Video Edits and Graphic Designs while I listen to
+              music. I believe that you don't have to be perfect to be amazing,
+              and I try to embrace my imperfections and strive to be the best
+              version of myself every day. Despite not having any work
+              experience, I am eager to learn and grow as a person. Thank you
+              for taking the time to learn more about me!
+            </p>
+            <div class="tab-titles" data-aos="fade-left">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div
+              class="tab-contents active-tab"
+              id="skills"
+              data-aos="fade-down"
+            >
+              <ul>
+                <li>
+                  <span>Web Development</span><br />Developing a website.<br />
+                  <i class="fa-brands fa-html5"></i
+                  ><i class="fa-brands fa-css3-alt"></i
+                  ><i class="fa-brands fa-square-js"></i>
+                </li>
+                <li><span>Graphic Design</span><br />Creating image designs</li>
+                <li><span>Video Editing</span><br />Editing Videos</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience" data-aos="fade-down">
+              <ul>
+                <li>
+                  <span>2021 - Current</span><br />Self-taught front-end
+                  developer
+                </li>
+                <li>
+                  <span>2022 - Current</span><br />Self-taught Graphic Designer
+                </li>
+                <li>
+                  <span>2022 - Current</span><br />Self-taught Video Editor
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education" data-aos="fade-down">
+              <ul>
+                <li>
+                  <span>2021</span><br />Youtube course, FreeCodeCamp, The Odin
+                  Project, and Udemy
+                </li>
+                <li><span>2022</span><br />Youtube Tutorials</li>
+                <li><span>2022</span><br />Youtube Tutorials</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+█░█ █▀█ █▄▄ █▄▄ █ █▀▀ █▀
+█▀█ █▄█ █▄█ █▄█ █ ██▄ ▄█
+     -->
+    <div id="hobbies">
+      <h1 class="sub-title" data-aos="fade-right">My Hobbies</h1>
+      <div class="hobbies-lists" data-aos="fade-up">
+        <div class="popup">
+          <div data-aos="zoom-in">
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              Web design is the process of creating and building websites. It
+              involves designing the layout, structure, and content of a site,
+              as well as implementing functionalities and features that allow
+              users to interact with it. Web designers use various technologies
+              and tools, such as HTML, CSS, and JavaScript, to create visually
+              appealing and user-friendly websites.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Web_design">Learn more</a>
+          </div>
+        </div>
+        <div class="popup">
+          <div data-aos="zoom-in">
+            <i class="fa-solid fa-pen-nib"></i>
+            <h2>Graphic Design</h2>
+            <p>
+              Graphic design is the art of creating visual content for various
+              purposes, such as advertising, branding, and communication. It
+              involves using a combination of text, images, and other elements
+              to convey a message or tell a story. Graphic designers use
+              software like Photoshop and Illustrator to create visually
+              appealing designs that are effective at communicating a desired
+              message.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Graphic_design"
+              >Learn more</a
+            >
+          </div>
+        </div>
+        <div class="popup">
+          <div data-aos="zoom-in">
+            <i class="fa-solid fa-video"></i>
+            <h2>Video Editing</h2>
+            <p>
+              Video editing is the process of manipulating and rearranging video
+              footage to create a final product that tells a story or
+              communicates a message. It involves cutting and splicing together
+              various clips, as well as adding transitions, audio, and other
+              elements to enhance the final product. Video editors use
+              specialized software, such as Premiere Pro or Final Cut Pro, to
+              perform these tasks. They may work on a wide range of projects,
+              including promotional videos, documentaries, and music videos.
+            </p>
+            <a href="https://en.wikipedia.org/wiki/Video_editing">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+█▀█ █▀█ █▀█ ░░█ █▀▀ █▀▀ ▀█▀ █▀
+█▀▀ █▀▄ █▄█ █▄█ ██▄ █▄▄ ░█░ ▄█
+     -->
+    <div id="projects">
+      <div class="container">
+        <h1 class="sub-title" data-aos="fade-right">My Work</h1>
+        <div class="project-list" data-aos="fade-up">
+          <div class="project">
+            <img
+              src="./projects/screenshots/Screen Shot 2023-01-06 at 1.04.19 AM.png"
+              alt="Should be a pic of my project"
+            />
+            <div class="layer">
+              <h3>1st Website</h3>
+              <p>
+                I made this for my grade 10 1st quarter computer subject. Lets
+                say I didn't improve much but I did learn a lot. Also, its not a
+                responsive website so for those who have a phone or a laptop,
+                don't expect much.
+              </p>
+              <a href="./projects/Arias.html"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project">
+            <img
+              src="./projects/screenshots/Screen Shot 2023-01-06 at 1.05.38 AM.png"
+              alt="Should be a pic of my project"
+            />
+            <div class="layer">
+              <h3>2nd Website</h3>
+              <p>
+                A website I made when I was just starting out on making actual
+                websites with the things ive learned on coding. if you're on a
+                phone or a laptop the website would look bad since it was made
+                on my pc that had a big monitor.
+              </p>
+              <a href="./projects/Web Development Performance 1.html"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="project">
+            <img
+              src="./projects/screenshots/Screen Shot 2023-01-06 at 1.13.06 AM.png"
+              alt="Should be a pic of my project"
+            />
+            <div class="layer">
+              <h3>First AMV in the lowest resolution</h3>
+              <p>
+                Its my first and last AMV I made currently in january 2023. I
+                was pretty much impressed on the result back then.
+                Unfortunately, I don't know how, but, the screenshot is blurry.
+              </p>
+              <a
+                href="https://twitter.com/JanliamArias/status/1541732639199346688"
+                ><i class="fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 
+█▀▀ █▀█ █▀█ ▀█▀ █▀▀ █▀█
+█▀░ █▄█ █▄█ ░█░ ██▄ █▀▄
+      -->
+    <div class="copyright">
+      <p>
+        Copyright © Jan Liam. Made with <i class="fa-solid fa-heart"></i> by Jan
+        Liam
+      </p>
+    </div>
+    <!--
+░░█ ▄▀█ █░█ ▄▀█ █▀ █▀▀ █▀█ █ █▀█ ▀█▀
+█▄█ █▀█ ▀▄▀ █▀█ ▄█ █▄▄ █▀▄ █ █▀▀ ░█░
+    -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>
