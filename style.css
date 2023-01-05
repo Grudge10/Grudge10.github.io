@@ -439,6 +439,9 @@ span {
 ╚═════╝░░╚════╝░╚═╝░░╚═╝╚══════╝╚══════╝╚═╝░░╚══╝
 */
 @media only screen and (max-width: 600px) {
+  * {
+    overflow-x: hidden;
+  }
   nav .nav-list li a,
   nav .nav-list li.btn {
     display: none;
