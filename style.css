@@ -448,10 +448,11 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column ;
+  flex-direction: column;
 }
 
-footer .social_icon, footer .menu {
+footer .social_icon,
+footer .menu {
   position: relative;
   display: flex;
   justify-content: center;
@@ -459,13 +460,14 @@ footer .social_icon, footer .menu {
   margin: 10px 0;
 }
 
-footer .social_icon li, footer .menu li {
+footer .social_icon li,
+footer .menu li {
   list-style: none;
 }
 
 footer .social_icon li a {
   font-size: 2em;
-  color: #fff;
+  color: #F1F0EF;
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -477,7 +479,7 @@ footer .social_icon li a:hover {
 
 footer .menu li a {
   font-size: 1.2em;
-  color: #fff;
+  color: #F1F0EF;
   margin: 0 10px;
   display: inline-block;
   transition: 0.5s;
@@ -540,23 +542,19 @@ footer .wave#wave4 {
 }
 
 @keyframes animateWave {
-  0%
-  {
+  0% {
     background-position-x: 1000px;
   }
-  100%
-  {
+  100% {
     background-position-x: 0px;
   }
 }
 
 @keyframes animateWave_02 {
-  0%
-  {
+  0% {
     background-position-x: 0px;
   }
-  100%
-  {
+  100% {
     background-position-x: 1000px;
   }
 }
@@ -683,7 +681,8 @@ footer .wave#wave4 {
     font-size: 40px;
   }
 
-  .about-col-1, .about-col-2 {
+  .about-col-1,
+  .about-col-2 {
     flex-basis: 85%;
   }
 
