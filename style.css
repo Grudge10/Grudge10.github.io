@@ -464,9 +464,9 @@ span {
 ╚═════╝░░╚════╝░╚═╝░░╚═╝╚══════╝╚══════╝╚═╝░░╚══╝
 */
 @media only screen and (max-width: 600px) {
-  html, body {
+  /* html, body {
     overflow-x: hidden;
-  }
+  } */
 
   nav .hamb {
     display: initial;
