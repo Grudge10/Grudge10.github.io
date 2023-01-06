@@ -469,6 +469,9 @@ span {
 
   nav .hamb {
     display: initial;
+    position: absolute;
+    top: 20px;
+    right: 20px;
   }
 
   .click {
@@ -496,7 +499,7 @@ span {
 
   nav .nav-list {
     position: absolute;
-    top: 90px;
+    top: 60px;
     right: -100%;
     bottom: 0;
     width: 60%;
@@ -532,6 +535,33 @@ span {
 
   nav .nav-list.open {
     right: 0;
+  }
+
+  .logo lottie-player {
+    width: 40px;
+    height: 40px;
+    margin-top: -230px;
+  }
+
+  .logo h1 {
+    font-size: 25px;
+    margin-top: -10px;
+  }
+
+  .container {
+    padding-top: 140px;
+  }
+
+  .container .hero-text h3 {
+    font-size: 15px;
+  }
+
+  .container .hero-text h1 {
+    font-size: 31px;
+  }
+
+  .container .hero-text p {
+    font-size: 14px;
   }
 
 }
