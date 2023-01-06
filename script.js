@@ -8,6 +8,13 @@ window.addEventListener("load", () => {
   });
 });
 
+let image = document.querySelector('.hero');
+
+window.addEventListener('scroll', function () {
+  let value = 1 + window.scrollY/-600;
+  image.style.opacity = value; 
+})
+
 var typed = new Typed(".typing-hero", {
   strings: ["Jan Liam.", "A Web Developer.", "Creative.", "Cool."],
   typeSpeed: 70,
