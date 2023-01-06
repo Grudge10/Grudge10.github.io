@@ -1,3 +1,13 @@
+window.addEventListener("load", () => {
+  const loader = document.querySelector(".loader");
+
+  document.querySelector(".loader").classList.add("loader--hidden");
+
+  document.querySelector(".loader").addEventListener("transitioned", () => {
+    document.body.removeChild(document.querySelector(".loader"));
+  });
+});
+
 var typed = new Typed(".typing-hero", {
   strings: ["Jan Liam.", "A Web Developer.", "Creative.", "Cool."],
   typeSpeed: 70,
