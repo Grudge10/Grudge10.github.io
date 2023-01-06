@@ -79,7 +79,7 @@ nav .hamb span {
   background: #2386ee;
   width: 100%;
   height: 3px;
-  transition: .3s;
+  transition: 0.3s;
   transition-property: transform, opacity;
 }
 
@@ -463,7 +463,8 @@ span {
 ╚═════╝░░╚════╝░╚═╝░░╚═╝╚══════╝╚══════╝╚═╝░░╚══╝
 */
 @media only screen and (max-width: 600px) {
-  html, body {
+  html,
+  body {
     overflow-x: hidden;
   }
 
@@ -491,7 +492,7 @@ span {
     opacity: 0;
     margin: 0;
   }
-  
+
   .click span:last-child {
     transform: rotate(40deg);
     top: 0;
@@ -507,7 +508,7 @@ span {
     background-color: #101323;
     z-index: 2;
     padding: 6% 9%;
-    transition: .3s right;
+    transition: 0.3s right;
     border-radius: 10px;
   }
 
@@ -563,5 +564,4 @@ span {
   .container .hero-text p {
     font-size: 14px;
   }
-
 }
