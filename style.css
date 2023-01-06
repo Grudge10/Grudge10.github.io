@@ -63,6 +63,31 @@ header {
   height: 50px;
 }
 
+nav .hamb {
+  width: 35px;
+  height: 24px;
+  right: 3%;
+  top: 60px;
+  z-index: 5;
+  background: transparent;
+  position: absolute;
+  cursor: pointer;
+  display: none;
+}
+
+nav .hamb span {
+  display: block;
+  background: #2386ee;
+  width: 100%;
+  height: 3px;
+  transition: .3s;
+  transition-property: transform, opacity;
+}
+
+nav .hamb span:nth-child(2) {
+  margin: 7px 0px;
+}
+
 nav .nav-list {
   list-style: none;
 }
@@ -442,8 +467,72 @@ span {
   html, body {
     overflow-x: hidden;
   }
-  nav .nav-list li a,
-  nav .nav-list li.btn {
-    display: none;
+
+  nav .hamb {
+    display: initial;
   }
+
+  .click {
+    top: 46px;
+  }
+
+  .click span {
+    position: absolute;
+    margin-top: 12px;
+  }
+
+  .click span:first-child {
+    transform: rotate(-40deg);
+  }
+
+  .click span:nth-child(2) {
+    opacity: 0;
+    margin: 0;
+  }
+  
+  .click span:last-child {
+    transform: rotate(40deg);
+    top: 0;
+  }
+
+  nav .nav-list {
+    position: absolute;
+    top: 90px;
+    right: 0;
+    bottom: 0;
+    width: 60%;
+    height: 50%;
+    background-color: #101323;
+    z-index: 2;
+    padding: 6% 9%;
+    transition: .3s right;
+    border-radius: 10px;
+  }
+
+  nav .nav-list li {
+    display: block;
+  }
+
+  nav .nav-list li a {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 0;
+    margin-bottom: 40px;
+  }
+
+  nav .nav-list li.btn a {
+    position: absolute;
+    bottom: 0%;
+    right: 20%;
+    left: 20%;
+    padding: 7px 15px;
+    font-size: 14px;
+  }
+
+  nav .nav-list.open {
+    right: 0;
+  }
+
 }

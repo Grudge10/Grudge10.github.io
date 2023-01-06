@@ -18,3 +18,12 @@ function opentab(tabname) {
   event.currentTarget.classList.add("active-link");
   document.getElementById(tabname).classList.add("active-tab");
 }
+
+var hamburger = document.querySelector(".hamb");
+var navlist = document.querySelector(".nav-list");
+var links = document.querySelector(".nav-list li");
+
+hamburger.addEventListener("click", function () {
+  this.classList.toggle("click");
+  navlist.classList.toggle("open");
+})
