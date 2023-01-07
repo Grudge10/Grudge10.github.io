@@ -27,7 +27,7 @@ body {
   justify-content: center;
   background: #06080e;
   z-index: 10000;
-  transition: opacity 4s, visibility 4s;
+  transition: opacity 2s, visibility 2s;
 }
 
 .loader--hidden {
